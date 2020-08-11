@@ -1,0 +1,569 @@
+PMID- 29180148
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180717
+LR  - 20180720
+IS  - 1877-1300 (Electronic)
+IS  - 1877-1297 (Linking)
+VI  - 9
+IP  - 1
+DP  - 2017 Jan-Feb
+TI  - Game on: The gamification of the pharmacy classroom.
+PG  - 155-159
+LID - S1877-1297(15)30186-6 [pii]
+LID - 10.1016/j.cptl.2016.08.046 [doi]
+AB  - BACKGROUND: Gamification is the use of game mechanics to promote engagement and 
+      enjoyment of problem-solving in non-game situations. Gamification has been used 
+      widely in recent years in industry and academia as a tool for training and 
+      education. OBJECTIVE: The aims of this paper are to provide an overview of 
+      gamification and digital game-based learning (DGBL), review the use of digital games 
+      in health professional education, and provide suggestions for future use in pharmacy 
+      curricula. DISCUSSION: Many examples of game-based learning in pharmacy and other 
+      health professional curricula have been published, however the body of literature on 
+      DGBL is less developed. Overall, evaluations of these techniques show that students 
+      find them engaging and enjoyable. A recent meta-analysis of studies comparing DGBL 
+      to non-game based learning in primary, secondary, post-secondary education found 
+      that DGBL significantly enhances learning. Challenges to implementing game-based 
+      learning are financial, cultural, and technological. CONCLUSION: Many areas of the 
+      pharmacy curriculum could be appropriate for digital gamification. With more 
+      students entering pharmacy school familiar with video games and game-based living 
+      the time has come for pharmacy educators to explore how these instructional 
+      technologies could benefit a new generation of pharmacy students. As serious games 
+      are developed and researched in pharmacy curricula, test scores, student confidence 
+      in knowledge and skills, and retention of knowledge and skills are all outcomes 
+      that, if published, will help advance the adoption of DGBL into the pharmacy school 
+      classroom.
+CI  - Copyright © 2016 Elsevier Inc. All rights reserved.
+FAU - Sera, Leah
+AU  - Sera L
+AD  - Department of Pharmacy Practice and Science, University of Maryland School of 
+      Pharmacy, Rockville, MD. Electronic address: lsera@rx.umaryland.edu.
+FAU - Wheeler, Erin
+AU  - Wheeler E
+AD  - University of Maryland, Baltimore County, Baltimore, MD.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20161026
+PL  - United States
+TA  - Curr Pharm Teach Learn
+JT  - Currents in pharmacy teaching & learning
+JID - 101560815
+SB  - IM
+MH  - Curriculum/*trends
+MH  - Education, Pharmacy/*methods/standards
+MH  - Educational Measurement/methods
+MH  - *Games, Experimental
+MH  - Humans
+MH  - Learning
+MH  - Problem Solving
+MH  - Students, Pharmacy/*psychology
+OTO - NOTNLM
+OT  - *Active learning
+OT  - *Game-based learning
+OT  - *Gamification
+OT  - *Pharmacy education
+EDAT- 2017/11/29 06:00
+MHDA- 2018/07/18 06:00
+CRDT- 2017/11/29 06:00
+PHST- 2015/12/01 00:00 [received]
+PHST- 2016/07/12 00:00 [revised]
+PHST- 2016/08/26 00:00 [accepted]
+PHST- 2017/11/29 06:00 [entrez]
+PHST- 2017/11/29 06:00 [pubmed]
+PHST- 2018/07/18 06:00 [medline]
+AID - S1877-1297(15)30186-6 [pii]
+AID - 10.1016/j.cptl.2016.08.046 [doi]
+PST - ppublish
+SO  - Curr Pharm Teach Learn. 2017 Jan-Feb;9(1):155-159. doi: 10.1016/j.cptl.2016.08.046. 
+      Epub 2016 Oct 26.
+
+PMID- 31877882
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20200421
+IS  - 2227-9032 (Print)
+IS  - 2227-9032 (Electronic)
+IS  - 2227-9032 (Linking)
+VI  - 8
+IP  - 1
+DP  - 2019 Dec 22
+TI  - The RETAIN Simulation-Based Serious Game-A Review of the Literature.
+LID - 10.3390/healthcare8010003 [doi]
+LID - 3
+AB  - Background: Each year, over 13 million babies worldwide need help to breathe at 
+      birth. While guidelines recommend the Neonatal Resuscitation Program course, medical 
+      errors remain common. Frequent simulation training and assessment is needed to 
+      address this competence gap; however, alternative approaches are needed to overcome 
+      barriers to access. The RETAIN (REsuscitation TrAINing) simulation-based serious 
+      game (Retain Labs Medical Inc., Edmonton, AB, Canada) may provide a solution to 
+      supplement traditional training. This paper aims to review the available evidence 
+      about RETAIN for improving neonatal resuscitation education. Method: Literature 
+      searches of PubMed, Google Scholar, Cochrane Central Register of Controlled Trials, 
+      CINAHL, Web of Science, and EMBASE databases were performed to identify studies 
+      examining the RETAIN serious game for neonatal resuscitation training. All of the 
+      studies describing the RETAIN board game and computer game were included. Results: 
+      Three papers and one conference proceeding were identified. Two studies described 
+      the RETAIN board game, and two studies described the RETAIN computer game. RETAIN 
+      was reported as usable and clinically relevant. RETAIN also improved knowledge of 
+      neonatal resuscitation by 12% and functioned as a summative assessment. Further, 
+      performance on RETAIN was moderated by players' self-reported mindset. Conclusion: 
+      RETAIN can be used for the training and assessment of experienced neonatal 
+      resuscitation providers. Further studies are needed to understand the effectiveness 
+      of RETAIN to (i) improve other cognitive and non-cognitive skills, (ii) in diverse 
+      populations of neonatal resuscitation providers, (iii) in comparison to current 
+      standard training approaches, and (iv) in improving clinical outcomes in the 
+      delivery room.
+FAU - Ghoman, Simran K
+AU  - Ghoman SK
+AD  - Centre for the Studies of Asphyxia and Resuscitation, Neonatal Research Unit, Royal 
+      Alexandra Hospital, Edmonton, AB T5H 3V9, Canada.
+AD  - Department of Pediatrics, Faculty of Medicine and Dentistry, University of Alberta, 
+      Edmonton, AB T6G 1C9, Canada.
+FAU - Schmölzer, Georg M
+AU  - Schmölzer GM
+AUID- ORCID: 0000-0001-9798-2415
+AD  - Centre for the Studies of Asphyxia and Resuscitation, Neonatal Research Unit, Royal 
+      Alexandra Hospital, Edmonton, AB T5H 3V9, Canada.
+AD  - Department of Pediatrics, Faculty of Medicine and Dentistry, University of Alberta, 
+      Edmonton, AB T6G 1C9, Canada.
+LA  - eng
+PT  - Journal Article
+PT  - Review
+DEP - 20191222
+TA  - Healthcare (Basel)
+JT  - Healthcare (Basel, Switzerland)
+JID - 101666525
+PMC - PMC7151097
+OTO - NOTNLM
+OT  - RETAIN
+OT  - board game
+OT  - computer game
+OT  - digital simulation
+OT  - infants
+OT  - neonatal resuscitation
+OT  - neonatology
+OT  - newborn
+OT  - serious game
+OT  - simulation-based education
+COIS- S.K.G.: No competing interests; G.M.S. has registered the RETAIN board game [Tech 
+      ID—2017083] and the RETAIN video game under Canadian copyright [Tech ID—2017086]. 
+      G.M.S. is one of the owners of RETAIN Labs Medical Inc., Edmonton, AB, Canada 
+      (https://www.playretain.com).
+EDAT- 2019/12/28 06:00
+MHDA- 2019/12/28 06:01
+CRDT- 2019/12/28 06:00
+PHST- 2019/12/05 00:00 [received]
+PHST- 2019/12/16 00:00 [revised]
+PHST- 2019/12/19 00:00 [accepted]
+PHST- 2019/12/28 06:00 [entrez]
+PHST- 2019/12/28 06:00 [pubmed]
+PHST- 2019/12/28 06:01 [medline]
+AID - healthcare8010003 [pii]
+AID - healthcare-08-00003 [pii]
+AID - 10.3390/healthcare8010003 [doi]
+PST - epublish
+SO  - Healthcare (Basel). 2019 Dec 22;8(1):3. doi: 10.3390/healthcare8010003.
+
+PMID- 28856903
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20190401
+LR  - 20190401
+IS  - 1440-1665 (Electronic)
+IS  - 1039-8562 (Linking)
+VI  - 25
+IP  - 6
+DP  - 2017 Dec
+TI  - Game-based interventions and their impact on dementia: a narrative review.
+PG  - 562-565
+LID - 10.1177/1039856217726686 [doi]
+AB  - OBJECTIVE: The aim of this review was to examine the efficacy of game-based 
+      interventions for people with dementia. METHODS: Seven studies that met the 
+      inclusion criteria were found in four databases. Their interventions and key 
+      findings were analysed and synthesised. RESULTS: Game-based interventions for people 
+      with dementia are showing promise for improving cognition, coordination and 
+      behavioural and psychological symptoms. The generalisability of the findings is 
+      limited by weak methodology and small sample size. CONCLUSIONS: Game-based 
+      interventions can improve cognition, coordination and behavioural and psychological 
+      symptoms for people with dementia. Future research should include methodological 
+      improvement and practice guideline development.
+FAU - Zheng, Jiaying
+AU  - Zheng J
+AD  - Nurse, Zhejiang Provincial Hospital of Traditional Chinese Medicine, Hangzhou, 
+      China.
+FAU - Chen, Xueping
+AU  - Chen X
+AD  - Professor, Faculty of Nursing, Qianjiang College of Hangzhou Normal University, 
+      Hangzhou, China.
+FAU - Yu, Ping
+AU  - Yu P
+AD  - Professor, School of Computing and Information Technology, University of Wollongong, 
+      Wollongong, NSW, Australia.
+LA  - eng
+PT  - Journal Article
+PT  - Research Support, Non-U.S. Gov't
+PT  - Review
+DEP - 20170831
+PL  - England
+TA  - Australas Psychiatry
+JT  - Australasian psychiatry : bulletin of Royal Australian and New Zealand College of 
+      Psychiatrists
+JID - 9613603
+SB  - IM
+MH  - Dementia/*rehabilitation
+MH  - Humans
+MH  - Neurological Rehabilitation/*methods
+MH  - Psychiatric Rehabilitation/*methods
+MH  - *Video Games
+OTO - NOTNLM
+OT  - *dementia
+OT  - *game
+OT  - *game-based interventions
+OT  - *literature review
+EDAT- 2017/09/01 06:00
+MHDA- 2019/04/02 06:00
+CRDT- 2017/09/01 06:00
+PHST- 2017/09/01 06:00 [pubmed]
+PHST- 2019/04/02 06:00 [medline]
+PHST- 2017/09/01 06:00 [entrez]
+AID - 10.1177/1039856217726686 [doi]
+PST - ppublish
+SO  - Australas Psychiatry. 2017 Dec;25(6):562-565. doi: 10.1177/1039856217726686. Epub 
+      2017 Aug 31.
+
+PMID- 28841491
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180416
+LR  - 20181202
+IS  - 1573-2517 (Electronic)
+IS  - 0165-0327 (Linking)
+VI  - 225
+DP  - 2018 Jan 1
+TI  - Video game addiction in emerging adulthood: Cross-sectional evidence of pathology in 
+      video game addicts as compared to matched healthy controls.
+PG  - 265-272
+LID - S0165-0327(17)30112-X [pii]
+LID - 10.1016/j.jad.2017.08.045 [doi]
+AB  - BACKGROUND: The Internet Gaming Disorder Scale (IGDS) is a widely used measure of 
+      video game addiction, a pathology affecting a small percentage of all people who 
+      play video games. Emerging adult males are significantly more likely to be video 
+      game addicts. Few researchers have examined how people who qualify as video game 
+      addicts based on the IGDS compared to matched controls based on age, gender, race, 
+      and marital status. METHOD: The current study compared IGDS video game addicts to 
+      matched non-addicts in terms of their mental, physical, social-emotional health 
+      using self-report, survey methods. RESULTS: Addicts had poorer mental health and 
+      cognitive functioning including poorer impulse control and ADHD symptoms compared to 
+      controls. Additionally, addicts displayed increased emotional difficulties including 
+      increased depression and anxiety, felt more socially isolated, and were more likely 
+      to display internet pornography pathological use symptoms. Female video game addicts 
+      were at unique risk for negative outcomes. LIMITATIONS: The sample for this study 
+      was undergraduate college students and self-report measures were used. CONCLUSIONS: 
+      Participants who met the IGDS criteria for video game addiction displayed poorer 
+      emotional, physical, mental, and social health, adding to the growing evidence that 
+      video game addictions are a valid phenomenon.
+CI  - Copyright © 2017 Elsevier B.V. All rights reserved.
+FAU - Stockdale, Laura
+AU  - Stockdale L
+AD  - School of Family Life, Brigham Young University, 2086 JFSB, Provo, UT 84602, United 
+      States. Electronic address: lstockdale@byu.edu.
+FAU - Coyne, Sarah M
+AU  - Coyne SM
+AD  - School of Family Life, Brigham Young University, 2086 JFSB, Provo, UT 84602, United 
+      States.
+LA  - eng
+PT  - Journal Article
+DEP - 20170818
+PL  - Netherlands
+TA  - J Affect Disord
+JT  - Journal of affective disorders
+JID - 7906073
+SB  - IM
+MH  - Adult
+MH  - Anxiety/*psychology
+MH  - Behavior, Addictive/*psychology
+MH  - Cross-Sectional Studies
+MH  - Female
+MH  - Gambling/*psychology
+MH  - Humans
+MH  - Impulsive Behavior
+MH  - Internet
+MH  - Male
+MH  - Reference Values
+MH  - Self Report
+MH  - Students/psychology
+MH  - Video Games/*psychology
+MH  - Young Adult
+OTO - NOTNLM
+OT  - *Emerging adults
+OT  - *Internet gaming addiction
+OT  - *Pathological gaming
+OT  - *Video game addiction
+EDAT- 2017/08/26 06:00
+MHDA- 2018/04/17 06:00
+CRDT- 2017/08/26 06:00
+PHST- 2017/01/17 00:00 [received]
+PHST- 2017/06/27 00:00 [revised]
+PHST- 2017/08/14 00:00 [accepted]
+PHST- 2017/08/26 06:00 [pubmed]
+PHST- 2018/04/17 06:00 [medline]
+PHST- 2017/08/26 06:00 [entrez]
+AID - S0165-0327(17)30112-X [pii]
+AID - 10.1016/j.jad.2017.08.045 [doi]
+PST - ppublish
+SO  - J Affect Disord. 2018 Jan 1;225:265-272. doi: 10.1016/j.jad.2017.08.045. Epub 2017 
+      Aug 18.
+
+PMID- 29573063
+OWN - NLM
+STAT- MEDLINE
+DCOM- 20180822
+LR  - 20180822
+IS  - 1442-200X (Electronic)
+IS  - 1328-8067 (Linking)
+VI  - 60
+IP  - 6
+DP  - 2018 Jun
+TI  - Pattern of video game use in children with attention-deficit-hyperactivity disorder 
+      and typical development.
+PG  - 523-528
+LID - 10.1111/ped.13564 [doi]
+AB  - BACKGROUND: Video game playing is a favorite leisure activity among children 
+      worldwide. Individuals with attention-deficit-hyperactivity disorder (ADHD) often 
+      lack self-control, making them at risk for substance abuse and game addiction. There 
+      are conflicting results, however, between studies on the pattern of video gaming and 
+      game addiction between those with ADHD and healthy controls. We therefore compared 
+      the pattern of video game use and game addiction between Thai children with ADHD and 
+      healthy controls. METHODS: A total of 80 participants with ADHD (median age, 
+      9.5 years) and 102 controls (median age, 10 years) were recruited in this study. 
+      ADHD was diagnosed by a developmental pediatrician. Each control subject's teacher 
+      completed the ADHD questionnaire to ensure that they did not have the diagnosis of 
+      ADHD. Pattern of video game use and Game Addiction Screening Test (GAST) were 
+      completed by participants' parents. RESULTS: More than half of the children with and 
+      without ADHD spent >2 h/day playing video games rather than engaging in other 
+      age-appropriate leisure activities, particularly on weekends. Participants with 
+      ADHD, however, had a higher rate of compulsive video game use than controls (37.5% 
+      vs 11.8%, P < 0.001). CONCLUSIONS: Although video game playing was relatively 
+      prevalent in children regardless of ADHD status, those with ADHD had a higher rate 
+      of problematic video game use than controls. The pattern of leisure activities 
+      including video game use should be assessed during health supervision visits. As 
+      such, those at risk for game addiction could be identified early, resulting in 
+      appropriate intervention.
+CI  - © 2018 Japan Pediatric Society.
+FAU - Kietglaiwansiri, Tanyawan
+AU  - Kietglaiwansiri T
+AD  - Department of Pediatrics, Faculty of Medicine, Chulalongkorn University, Bangkok, 
+      Thailand.
+AD  - King Chulalongkorn Memorial Hospital, Thai Red Cross Society, Bangkok, Thailand.
+FAU - Chonchaiya, Weerasak
+AU  - Chonchaiya W
+AUID- ORCID: 0000-0002-0223-9969
+AD  - Division of Growth and Development, Faculty of Medicine, Chulalongkorn University, 
+      Bangkok, Thailand.
+AD  - Maximizing Thai Children's Developmental Potential Research Unit, Faculty of 
+      Medicine, Chulalongkorn University, Bangkok, Thailand.
+AD  - Department of Pediatrics, Faculty of Medicine, Chulalongkorn University, Bangkok, 
+      Thailand.
+AD  - King Chulalongkorn Memorial Hospital, Thai Red Cross Society, Bangkok, Thailand.
+LA  - eng
+PT  - Journal Article
+PL  - Australia
+TA  - Pediatr Int
+JT  - Pediatrics international : official journal of the Japan Pediatric Society
+JID - 100886002
+SB  - IM
+MH  - Adolescent
+MH  - Attention Deficit Disorder with Hyperactivity/*psychology
+MH  - Behavior, Addictive/diagnosis/*psychology
+MH  - Case-Control Studies
+MH  - Child
+MH  - Child Behavior/*psychology
+MH  - Female
+MH  - Humans
+MH  - Male
+MH  - Video Games/*psychology
+MH  - Young Adult
+OTO - NOTNLM
+OT  - attention-deficit-hyperactivity disorder
+OT  - game addiction
+OT  - pathological gaming
+OT  - video game
+EDAT- 2018/03/25 06:00
+MHDA- 2018/08/23 06:00
+CRDT- 2018/03/25 06:00
+PHST- 2017/03/26 00:00 [received]
+PHST- 2018/01/15 00:00 [revised]
+PHST- 2018/03/09 00:00 [accepted]
+PHST- 2018/03/25 06:00 [pubmed]
+PHST- 2018/08/23 06:00 [medline]
+PHST- 2018/03/25 06:00 [entrez]
+AID - 10.1111/ped.13564 [doi]
+PST - ppublish
+SO  - Pediatr Int. 2018 Jun;60(6):523-528. doi: 10.1111/ped.13564.
+
+PMID- 31909052
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20200109
+IS  - 2325-9671 (Print)
+IS  - 2325-9671 (Electronic)
+IS  - 2325-9671 (Linking)
+VI  - 7
+IP  - 12
+DP  - 2019 Dec
+TI  - Analysis of Non-Game Injuries in Major League Baseball.
+PG  - 2325967119888499
+LID - 10.1177/2325967119888499 [doi]
+LID - 2325967119888499
+AB  - BACKGROUND: Numerous studies have investigated injuries and treatments in the 
+      baseball athlete. The majority of these studies have focused on the throwing 
+      shoulder and elbow. However, more recent literature is reporting injuries to other 
+      regions in this cohort, including the knee, head, hip, and hamstring. 
+      PURPOSE/HYPOTHESIS: The purpose of the current study was to determine the number and 
+      type of injuries in Major League Baseball (MLB) and Minor League Baseball (MiLB) 
+      players that do not occur during the actual game but are related to baseball 
+      participation. Our hypothesis was that there would be a substantial number of 
+      injuries that occurred in professional baseball players during non-game situations. 
+      STUDY DESIGN: Descriptive epidemiological study. METHODS: Deidentified, anonymous 
+      data were collected from the 2011 through 2016 seasons from the MLB Health and 
+      Injury Tracking System (HITS) medical record database. All injuries that were 
+      identified as a primary diagnosis and resulted in at least 1 day out of play from 
+      both MLB and MiLB were examined. Injuries were categorized as occurring during the 
+      game ("game" injuries) or not during the game. A "non-game" injury was defined as 
+      occurring at any time other than during the scheduled game from the first to last 
+      pitch. RESULTS: There were 51,548 total injuries in MLB and MiLB players from 2011 
+      to 2016, almost 40% of which were attributed to non-game-related injuries (n = 
+      19,201; 37.2%). The remainder occurred during a game (n = 32,347; 62.8%). A 
+      significantly greater percentage of non-game injuries were season ending (10.8%) 
+      compared with the percentage of game-related season-ending injuries (8.4%) (P < 
+      .0001). Pitchers had significantly more non-game-related injuries than game-related 
+      injuries (P < .0001). CONCLUSION: A large number of injuries occur in professional 
+      baseball outside of actual games. MiLB players, specifically pitchers, are 
+      particularly at risk for these types of injuries. It is feasible that the overall 
+      injury rate in professional baseball players could be reduced by analyzing these 
+      injuries in more detail to develop prevention strategies.
+CI  - © The Author(s) 2019.
+FAU - Esquivel, Amanda
+AU  - Esquivel A
+AD  - Department of Mechanical Engineering, College of Engineering and Computer Science, 
+      University of Michigan-Dearborn, Dearborn, Michigan, USA.
+FAU - Freehill, Michael T
+AU  - Freehill MT
+AD  - Department of Orthopaedic Surgery, University of Michigan, Ann Arbor, Michigan, USA.
+FAU - Curriero, Frank C
+AU  - Curriero FC
+AD  - Department of Epidemiology, Johns Hopkins Bloomberg School of Public Health, Johns 
+      Hopkins University, Baltimore, Maryland, USA.
+FAU - Rand, Kevin L
+AU  - Rand KL
+AD  - Detroit Tigers, Detroit, Michigan, USA.
+FAU - Conte, Stan
+AU  - Conte S
+AD  - Conte Sport Performance Therapy, Phoenix, Arizona, USA.
+FAU - Tedeschi, Thomas
+AU  - Tedeschi T
+AD  - Detroit Medical Center Sports Medicine, Detroit, Michigan, USA.
+FAU - Lemos, Stephen E
+AU  - Lemos SE
+AD  - Detroit Medical Center Sports Medicine, Detroit, Michigan, USA.
+LA  - eng
+PT  - Journal Article
+DEP - 20191227
+TA  - Orthop J Sports Med
+JT  - Orthopaedic journal of sports medicine
+JID - 101620522
+PMC - PMC6935766
+OTO - NOTNLM
+OT  - MLB
+OT  - Major League Baseball Health and Injury Tracking System
+OT  - baseball injuries
+COIS- One or more of the authors has declared the following potential conflict of interest 
+      or source of funding: The Johns Hopkins Bloomberg School of Public Health (JHBSPH) 
+      has an ongoing (≥5 years) contractual arrangement with Major League Baseball to 
+      provide injury, epidemiological, and biostatistical support for research related to 
+      player health and safety. M.T.F. has received grant support from DJO, consulting 
+      fees from Medical Device Business Systems (DePuy) and Smith & Nephew, speaking fees 
+      from Integra, and hospitality payments from Wright Medical. F.C.C. is a full-time 
+      faculty member in the Department of Epidemiology at the JHBSPH and receives partial 
+      salary support for his efforts in these endeavors, which included his involvement in 
+      the current study. S.E.L. has received educational support from Pinnacle and 
+      hospitality payments from Smith & Nephew. AOSSM checks author disclosures against 
+      the Open Payments Database (OPD). AOSSM has not conducted an independent 
+      investigation on the OPD and disclaims any liability or responsibility relating 
+      thereto.
+EDAT- 2020/01/08 06:00
+MHDA- 2020/01/08 06:01
+CRDT- 2020/01/08 06:00
+PHST- 2020/01/08 06:00 [entrez]
+PHST- 2020/01/08 06:00 [pubmed]
+PHST- 2020/01/08 06:01 [medline]
+AID - 10.1177_2325967119888499 [pii]
+AID - 10.1177/2325967119888499 [doi]
+PST - epublish
+SO  - Orthop J Sports Med. 2019 Dec 27;7(12):2325967119888499. doi: 
+      10.1177/2325967119888499. eCollection 2019 Dec.
+
+PMID- 31552213
+OWN - NLM
+STAT- PubMed-not-MEDLINE
+LR  - 20200225
+IS  - 2296-2565 (Print)
+IS  - 2296-2565 (Electronic)
+IS  - 2296-2565 (Linking)
+VI  - 7
+DP  - 2019
+TI  - The Association Between Mobile Game Addiction and Depression, Social Anxiety, and 
+      Loneliness.
+PG  - 247
+LID - 10.3389/fpubh.2019.00247 [doi]
+LID - 247
+AB  - As a new type of addictive behaviors and distinct from traditional internet game 
+      addiction on desktop computers, mobile game addiction has attracted researchers' 
+      attention due to its possible negative effects on mental health issues. However, 
+      very few studies have particularly examined the relationship between mobile game 
+      addiction and mental health outcomes, due to a lack of specified instrument for 
+      measuring this new type of behavioral addiction. In this study, we examined the 
+      relationship between mobile game addition and social anxiety, depression, and 
+      loneliness among adolescents. We found that mobile game addiction was positively 
+      associated with social anxiety, depression, and loneliness. A further analysis on 
+      gender difference in the paths from mobile game addiction to these mental health 
+      outcomes was examined, and results revealed that male adolescents tend to report 
+      more social anxiety when they use mobile game addictively. We also discussed 
+      limitations and implications for mental health practice.
+FAU - Wang, Jin-Liang
+AU  - Wang JL
+AD  - Center for Mental Health Education, School of Psychology, Southwest University, 
+      Chongqing, China.
+FAU - Sheng, Jia-Rong
+AU  - Sheng JR
+AD  - Center for Mental Health Education, School of Psychology, Southwest University, 
+      Chongqing, China.
+FAU - Wang, Hai-Zhen
+AU  - Wang HZ
+AD  - Chongqing Youth and Vocational Technical College, Chongqing, China.
+LA  - eng
+PT  - Journal Article
+DEP - 20190906
+TA  - Front Public Health
+JT  - Frontiers in public health
+JID - 101616579
+PMC - PMC6743417
+OTO - NOTNLM
+OT  - adolescents
+OT  - depression
+OT  - loneliness
+OT  - mobile game addiction
+OT  - social anxiety
+EDAT- 2019/09/26 06:00
+MHDA- 2019/09/26 06:01
+CRDT- 2019/09/26 06:00
+PHST- 2019/06/04 00:00 [received]
+PHST- 2019/08/16 00:00 [accepted]
+PHST- 2019/09/26 06:00 [entrez]
+PHST- 2019/09/26 06:00 [pubmed]
+PHST- 2019/09/26 06:01 [medline]
+AID - 10.3389/fpubh.2019.00247 [doi]
+PST - epublish
+SO  - Front Public Health. 2019 Sep 6;7:247. doi: 10.3389/fpubh.2019.00247. eCollection 
+      2019.

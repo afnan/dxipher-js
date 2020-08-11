@@ -1,6 +1,7 @@
 const { isValidJSON } = require('./utilities/validation');
 const { parseBibtex, parseToBibtex } = require('./parsers/bibtexParsers');
 const { parseRis, parseToRis } = require('./parsers/risParsers');
+const { parsePubMed } = require('./parsers/pubmedParsers');
 
 /**
  * @function - Converts JSON to BibTeX
@@ -44,10 +45,20 @@ const risToJSON = (content) => new Promise((resolve, reject) => {
     reject(error.message);
   }
 });
+const pubmedToJSON = (content) => new Promise((resolve, reject) => {
+  if (content) {
+    const parsedData = parsePubMed(content);
+    resolve(parsedData);
+  } else {
+    const error = new Error('Data passed in is invalid');
+    reject(error.message);
+  }
+});
 
 
 module.exports = {
   bibtexToJSON,
   jsonToBibtex,
-  risToJSON
+  risToJSON,
+  pubmedToJSON
 };
