@@ -1,7 +1,7 @@
 const { isValidJSON } = require('./utilities/validation');
 const { parseBibtex, parseToBibtex } = require('./parsers/bibtexParsers');
 const { parseRis, parseToRis } = require('./parsers/risParsers');
-const { parsePubMed } = require('./parsers/pubmedParsers');
+const { parsePubMed } = require('./parsers/pubMedParsers');
 
 /**
  * @function - Converts JSON to BibTeX
