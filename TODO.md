@@ -4,12 +4,12 @@
 
 - [ ] - Bibtex to JSON  
 - [ ] - JSON to Bibtex
+- [ ] - RIS to JSON  
 
 ## Backlog:
 
 - [ ] - XML to JSON  
-- [ ] - JSON to XML  
-- [ ] - RIS to JSON  
+- [ ] - JSON to XML
 - [ ] - JSON to RIS
 - [ ] - EndNote to JSON
 - [ ] - JSON to EndNote

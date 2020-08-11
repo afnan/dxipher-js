@@ -14,7 +14,7 @@ const keyProperty = createToken({
 
 const generalProperty = createToken({
   name: 'Field',
-  pattern: /AUTHOR.*|BOOKTITLE.*|\bTITLE.*|JOURNAL.*|VOLUME.*|YEAR.*|NUMBER.*|PAGES.*|EDITION.*|PUBLISHER.*|ADDRESS.*|VOLUME.*|SERIES.*|EDITOR.*|NOTE.*|HOWPUBLISHED.*|DOI.*|MONTH.*|URL.*|ORGANIZATION.*/i,
+  pattern: /ABSTRACT.*|AUTHOR.*|BOOKTITLE.*|\bTITLE.*|JOURNAL.*|VOLUME.*|YEAR.*|NUMBER.*|PAGES.*|EDITION.*|PUBLISHER.*|ADDRESS.*|VOLUME.*|SERIES.*|EDITOR.*|NOTE.*|HOWPUBLISHED.*|DOI.*|MONTH.*|URL.*|ORGANIZATION.*/i,
 });
 
 const sentenceProperty = createToken({
@@ -66,6 +66,7 @@ const transformToJSON = (parsedData) => {
 
     if (name === 'Sentence') {
       if (parsedData.tokens[index + 1].tokenType.name !== 'Sentence') {
+
         item[property] += image;
       } else {
         item[property] += `${image} `;

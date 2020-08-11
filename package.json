@@ -1,10 +1,9 @@
 {
-  "name": "@devisle/reference-js",
-  "version": "1.0.2",
+  "name": "@afnan.bashir/dxipher-js",
+  "version": "1.2.3",
   "description": "Conversion library for Reference Manager formats",
   "license": "MIT",
-  "repository": "devisle/reference-js",
-  "homepage": "https://devisle.netlify.com",
+  "repository": "afnan/dxipher-js",
   "main": "index.js",
   "scripts": {
     "test": "jest --verbose",
