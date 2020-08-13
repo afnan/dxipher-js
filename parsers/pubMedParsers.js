@@ -72,34 +72,10 @@ const transformToJSON = (parsedData) => {
       }
       else
         item[property] = newValue
-
-
-
-      //If the last property is being processed and there is no sentence remaining to current tag - add it
-      // if (property == "source" &&
-      //   parsedData.tokens[index + 1] != undefined &&
-      //   parsedData.tokens[index + 1].tokenType.name !== 'Sentence') {
-      //   // console.log("HERE", parsedData.tokens[index + 1])
-
-      //   pubmedArray.push(item);
-      //   item = {};
-      //   property = '';
-      // }
     }
 
     if (name === 'Sentence' && parsedData.tokens[index + 1] != undefined) {
-      //console.log(image)
-
-      // If there is no sentence remaining to the last tag, add it. If there is keep adding
-      // if (
-      //   parsedData.tokens[index + 1].tokenType.name !== 'Sentence') {
-      //  item[property] += image;
-      //   // pubmedArray.push(item);
-      //   // item = {};
-      //   // property = '';
-      // } else {
       item[property] += `${image} `;
-      // } //console.log(item[property])
     }
 
     //If last source property was processed and there is no token add it
@@ -107,8 +83,6 @@ const transformToJSON = (parsedData) => {
       parsedData.tokens[index + 1].tokenType.name !== 'Sentence') &&
       property == "source"
     ) {
-      // if (property == "source" && parsedData.tokens[index + 1] === undefined) {
-      // console.log("HERE", parsedData.tokens[index + 1])
 
       pubmedArray.push(item);
       item = {};
@@ -131,21 +105,11 @@ const transformToJSON = (parsedData) => {
 const parsePubMed = (data) => {
 
   const dataString = data.toString();
-  //console.log("Raw", dataString)
 
-  // const typeLine = noComments.replace(
-  //   /ARTICLE|\b@BOOK\b|INCOLLECTION|PHDTHESIS|TECHREPORT|MISC|INPROCEEDINGS/gim,
-  //   '$&\n',
-  // );
   const cleansed = dataString.replace(/['*{},"]/gm, '');
 
+  const parsedData = SelectLexer.tokenize(cleansed);
 
-  let asciiData = punycode.toASCII(cleansed)
-  let convertedData = punycode.toUnicode(asciiData)
-
-  const parsedData = SelectLexer.tokenize((convertedData));
-  // const parsedData = SelectLexer.tokenize();
-  //console.log(parsedData.tokens)
   return transformToJSON(parsedData);
 };
 

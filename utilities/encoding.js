@@ -107,12 +107,7 @@ const getPubMedRegEx = () => {
     let regString = ""
 
     Object.keys(pubMedTags).forEach((key) => {
-        // let space = ''
-        // if (key.length == 2)
-        //     space = '\s\s'
-        // else if (key.length == 3)
-        //     space = '\s'
-        // let space = (key.length == 2) ? '\\s\\s' : (key.length == 3) ? '\\s' : ''
+
         //Because 4 is max length of the field
         regString += ("(" + key + ").{" + (4 - key.length) + "}-.*|")
     })
