@@ -1,3 +1,4 @@
+
 //Reference https://www.nlm.nih.gov/bsd/mms/medlineelements.htmls
 const pubMedTags = {
     "AB": "abstract",
@@ -103,12 +104,19 @@ const risType = {
  * @returns {RegExp} RegExp
  */
 const getPubMedRegEx = () => {
-    let regString = ""   
+    let regString = ""
 
     Object.keys(pubMedTags).forEach((key) => {
-        regString += (key + ".*|")
-    })   
-    return new RegExp(regString.replace(/[|]$/,''))
+        // let space = ''
+        // if (key.length == 2)
+        //     space = '\s\s'
+        // else if (key.length == 3)
+        //     space = '\s'
+        // let space = (key.length == 2) ? '\\s\\s' : (key.length == 3) ? '\\s' : ''
+        //Because 4 is max length of the field
+        regString += ("(" + key + ").{" + (4 - key.length) + "}-.*|")
+    })
+    return new RegExp(regString.replace(/[|]$/, ''))
 }
 
 /**
@@ -126,5 +134,5 @@ const risToJsonTag = (tag) => {
 module.exports = {
     risToJsonTag,
     pubMedToJsonTag,
-    getPubMedRegEx
+    getPubMedRegEx,
 };

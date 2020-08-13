@@ -2,6 +2,7 @@
 const chevrotain = require('chevrotain');
 const { pubMedToJsonTag, getPubMedRegEx } = require('../utilities/encoding');
 const { createToken } = chevrotain;
+const punycode = require('punycode');
 
 const typeProperty = createToken({
   name: 'Type',
@@ -12,9 +13,12 @@ const generalProperty = createToken({
   name: 'Field',
   pattern: getPubMedRegEx(),
 });
+console.log(getPubMedRegEx())
 const sentenceProperty = createToken({
   name: 'Sentence',
   pattern: /[a-zA-Z0-9-.]+/i,
+  // pattern: /([A-Z][^\.!?]*[\.!?])/i,
+  line_breaks: true
 });
 
 const SelectLexer = new chevrotain.Lexer(
@@ -46,6 +50,7 @@ const transformToJSON = (parsedData) => {
     }
 
     if (name === 'Field') {
+
       /**Option-1 use Regex but text can have hyphens so split the remaining after initial extraction */
       /**Option-2
        * Using Substring as the text can have hyphens
@@ -54,41 +59,60 @@ const transformToJSON = (parsedData) => {
       const tag = image.substring(0, image.indexOf('-'))
       property = tag.replace(/\s+/, '')//Remove Spaces      
       property = pubMedToJsonTag(property)
-      item[property] = image.substring(image.indexOf('-') + 1, image.length).replace(/^\s/, '')
+      let newValue = image.substring(image.indexOf('-') + 1, image.length).replace(/^\s+/, '')
+      /**If an item already exists, take the previous one and add them as array if its not an array */
+      if (property in item) {
+        if (item[property].constructor == Array)
+          item[property].push(newValue)
+        else {
+          let oldValue = item[property]
+          item[property] = []
+          item[property].push(oldValue, newValue)
+        }
+      }
+      else
+        item[property] = newValue
+
+
 
       //If the last property is being processed and there is no sentence remaining to current tag - add it
-      if (property == "source" &&
-        parsedData.tokens[index + 1] != undefined &&
-        parsedData.tokens[index + 1].tokenType.name !== 'Sentence') {
-        // console.log("HERE", parsedData.tokens[index + 1])
+      // if (property == "source" &&
+      //   parsedData.tokens[index + 1] != undefined &&
+      //   parsedData.tokens[index + 1].tokenType.name !== 'Sentence') {
+      //   // console.log("HERE", parsedData.tokens[index + 1])
 
-        pubmedArray.push(item);
-        item = {};
-        property = '';
-      }
+      //   pubmedArray.push(item);
+      //   item = {};
+      //   property = '';
+      // }
     }
 
     if (name === 'Sentence' && parsedData.tokens[index + 1] != undefined) {
-      console.log()
+      //console.log(image)
+
       // If there is no sentence remaining to the last tag, add it. If there is keep adding
-      if (property == "source" &&
-        parsedData.tokens[index + 1].tokenType.name !== 'Sentence') {
-        item[property] += image;
-        pubmedArray.push(item);
-        item = {};
-        property = '';
-      } else {
-        item[property] += `${image} `;
-      } //console.log(item[property])
+      // if (
+      //   parsedData.tokens[index + 1].tokenType.name !== 'Sentence') {
+      //  item[property] += image;
+      //   // pubmedArray.push(item);
+      //   // item = {};
+      //   // property = '';
+      // } else {
+      item[property] += `${image} `;
+      // } //console.log(item[property])
     }
 
     //If last source property was processed and there is no token add it
-    if (property == "source" && parsedData.tokens[index + 1] === undefined) {
+    if ((parsedData.tokens[index + 1] === undefined ||
+      parsedData.tokens[index + 1].tokenType.name !== 'Sentence') &&
+      property == "source"
+    ) {
+      // if (property == "source" && parsedData.tokens[index + 1] === undefined) {
       // console.log("HERE", parsedData.tokens[index + 1])
 
       pubmedArray.push(item);
       item = {};
-      property = '';
+      //property = '';
     }
   });
 
@@ -115,7 +139,12 @@ const parsePubMed = (data) => {
   // );
   const cleansed = dataString.replace(/['*{},"]/gm, '');
 
-  const parsedData = SelectLexer.tokenize(cleansed);
+
+  let asciiData = punycode.toASCII(cleansed)
+  let convertedData = punycode.toUnicode(asciiData)
+
+  const parsedData = SelectLexer.tokenize((convertedData));
+  // const parsedData = SelectLexer.tokenize();
   //console.log(parsedData.tokens)
   return transformToJSON(parsedData);
 };
