@@ -1,0 +1,500 @@
+FN Clarivate Analytics Web of Science
+VR 1.0
+PT J
+AU Lee, DG
+   Tomlin, CJ
+AF Lee, Donggun
+   Tomlin, Claire J.
+TI A Hopf-Lax Formula in Hamilton-Jacobi Analysis of Reach-Avoid Problems
+SO IEEE CONTROL SYSTEMS LETTERS
+LA English
+DT Article
+DE Trajectory; Optimal control; Vehicle dynamics; Complexity theory;
+   Robots; Aerospace electronics; Optimal control; constrained control;
+   computational methods
+ID APPROXIMATIONS; GAMES; SETS
+AB Reach-avoid problems compute control laws under which a dynamic system can reach a desired set of states while avoiding another set. They are used in solving a variety of problems, such as goal-seeking and obstacle avoidance. Hamilton-Jacobi analysis provides a method for solving reach-avoid problems, through a corresponding Hamilton-Jacobi (HJ) equation. Although the HJ equation can be utilized for a general class of problems, computing the solution of the HJ equation by grid-based methods has exponential complexity in the dimension of the continuous state. To alleviate this complexity, this letter presents a generalized version of the Hopf-Lax formula and proves its correctness for solving the reach-avoid problem. The method does not rely on discretization of the state space. A numerical algorithm for the proposed Hopf-Lax formula is presented, and demonstrated using a 12D vehicle example.
+C1 [Lee, Donggun] Univ Calif Berkeley, Dept Mech Engn, Berkeley, CA 94703 USA.
+   [Tomlin, Claire J.] Univ Calif Berkeley, Dept Elect Engn & Comp Sci, Berkeley, CA 94703 USA.
+RP Lee, DG (corresponding author), Univ Calif Berkeley, Dept Mech Engn, Berkeley, CA 94703 USA.
+EM donggun_lee@berkeley.edu; tomlin@eecs.berkeley.edu
+FU DARPA Assured Autonomy Program [FA8750-18-C-0101]; Office of Naval
+   Research Basic Research Challenge in Multibody Control Systems
+   [N00014-18-1-2214]
+FX This work was supported in part by the DARPA Assured Autonomy Program
+   under Grant FA8750-18-C-0101, and in part by the Office of Naval
+   Research Basic Research Challenge in Multibody Control Systems under
+   Grant N00014-18-1-2214.
+NR 24
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2475-1456
+J9 IEEE CONTR SYST LETT
+JI IEEE Control Syst. Lett.
+PD JUL
+PY 2021
+VL 5
+IS 3
+BP 1055
+EP 1060
+DI 10.1109/LCSYS.2020.3009933
+PG 6
+WC Automation & Control Systems
+SC Automation & Control Systems
+GA MT3SD
+UT WOS:000554887200002
+DA 2020-08-14
+ER
+
+PT J
+AU Kulkarni, AN
+   Luo, H
+   Leslie, NO
+   Kamhoua, CA
+   Fu, J
+AF Kulkarni, Abhishek N.
+   Luo, Huan
+   Leslie, Nandi O.
+   Kamhoua, Charles A.
+   Fu, Jie
+TI Deceptive Labeling: Hypergames on Graphs for Stealthy Deception
+SO IEEE CONTROL SYSTEMS LETTERS
+LA English
+DT Article
+DE Formal methods; game theory; temporal logic; hypergame theory; deception
+ID INFINITE GAMES
+AB With the increasing sophistication of attacks on cyber-physical systems, deception has emerged as an effective tool to improve system security and safety by obfuscating the attacker's perception. In this letter, we present a solution to the deceptive game in which a control agent is to satisfy a Boolean objective specified by a co-safe temporal logic formula in the presence of an adversary. The agent intentionally introduces asymmetric information to create payoff misperception, which manifests as the misperception of the labeling function in the game model. Thus, the adversary is unable to accurately determine which logical formula is satisfied by a given outcome of the game. We introduce a model called hypergame on graph to capture the asymmetrical information with one-sided payoff misperception. Based on this model, we present the solution of such a hypergame and use the solution to synthesize stealthy deceptive strategies. Specifically, deceptive sure winning and deceptive almost-sure winning strategies are developed by reducing the hypergame to a two-player game and one-player stochastic game with reachability objectives. A running example is introduced to demonstrate the game model and the solution concept used for strategy synthesis.
+C1 [Kulkarni, Abhishek N.; Luo, Huan; Fu, Jie] Worcester Polytech Inst, Dept Elect & Comp Engn, Robot Engn Program, Worcester, MA 01609 USA.
+   [Leslie, Nandi O.; Kamhoua, Charles A.] US Army, Network Secur Branch, Res Lab, Adelphi, MD 20783 USA.
+RP Fu, J (corresponding author), Worcester Polytech Inst, Dept Elect & Comp Engn, Robot Engn Program, Worcester, MA 01609 USA.
+EM ankulkarni@wpi.edu; hluo12@126.com; nandi.o.leslie.ctr@mail.mil;
+   charles.a.kamhoua.civ@mail.mil; jfu2@wpi.edu
+FU Defense Advanced Research Projects Agency (DARPA)United States
+   Department of DefenseDefense Advanced Research Projects Agency (DARPA)
+   [HR00111990015]
+FX This work was supported by the Defense Advanced Research Projects Agency
+   (DARPA) under Agreement HR00111990015.
+NR 22
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2475-1456
+J9 IEEE CONTR SYST LETT
+JI IEEE Control Syst. Lett.
+PD JUL
+PY 2021
+VL 5
+IS 3
+BP 977
+EP 982
+DI 10.1109/LCSYS.2020.3008078
+PG 6
+WC Automation & Control Systems
+SC Automation & Control Systems
+GA MP5TH
+UT WOS:000552266300007
+DA 2020-08-14
+ER
+
+PT J
+AU O'Brien, JD
+   Burke, K
+   Burke, ME
+   Barmish, BR
+AF O'Brien, Joseph D.
+   Burke, Kevin
+   Burke, Mark E.
+   Barmish, B. Ross
+TI A Generalization of the Classical Kelly Betting Formula to the Case of
+   Temporal Correlation
+SO IEEE CONTROL SYSTEMS LETTERS
+LA English
+DT Article
+DE Stochastic systems; Markov processes; finance; control applications
+ID SERIAL-CORRELATION; CAPITAL GROWTH; INFORMATION; CRITERION
+AB For sequential betting games, Kelly's theory, aimed at maximization of the logarithmic growth of one's account value, involves optimization of the so-called betting fraction K. In this letter, we extend the classical formulation to allow for temporal correlation among bets. To demonstrate the potential of this new paradigm, for simplicity of exposition, we mainly address the case of a coin-flipping game with even-money payoff. To this end, we solve a problem with memory depth m. By this, we mean that the outcomes of coin flips are no longer assumed to be i.i.d. random variables. Instead, the probability of heads on flip k depends on previous flips k-1, k-2,..., k-m. For the simplest case of n flips, with m = 1, we obtain a closed form solution K-n for the optimal betting fraction. This generalizes the classical result for the memoryless case. That is, instead of fraction K* = 2p-1 which pervades the literature for a coin with probability of heads p >= 1/2, our new fraction K-n depends on both n and the parameters associated with the temporal correlation. Generalizations of these results for m > 1 and numerical simulations are also included. Finally, we indicate how the theory extends to time-varying feedback and alternative payoff distributions.
+C1 [O'Brien, Joseph D.; Burke, Kevin; Burke, Mark E.] Univ Limerick, Dept Math & Stat, Limerick V94 T9PX, Ireland.
+   [Barmish, B. Ross] Boston Univ, Dept ECE, Boston, MA 02215 USA.
+   [Barmish, B. Ross] Univ Wisconsin, Dept ECE, Madison, WI 53707 USA.
+RP O'Brien, JD (corresponding author), Univ Limerick, Dept Math & Stat, Limerick V94 T9PX, Ireland.
+EM joseph.obrien@ul.ie; kevin.burke@ul.ie; mark.burke@ul.ie;
+   bob.barmish@gmail.com
+OI Burke, Kevin/0000-0001-8724-809X; O'Brien, Joseph/0000-0002-9516-0175
+FU Science Foundation; MACSI Visitor Fund
+FX The work of Joseph D. O'Brien was supported by Science Foundation
+   supported by the MACSI Visitor Fund.
+NR 24
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2475-1456
+J9 IEEE CONTR SYST LETT
+JI IEEE Control Syst. Lett.
+PD APR
+PY 2021
+VL 5
+IS 2
+BP 623
+EP 628
+DI 10.1109/LCSYS.2020.3004029
+PG 6
+WC Automation & Control Systems
+SC Automation & Control Systems
+GA MK4JT
+UT WOS:000548754100011
+DA 2020-08-14
+ER
+
+PT J
+AU Bianchi, M
+   Grammatico, S
+AF Bianchi, Mattia
+   Grammatico, Sergio
+TI Fully Distributed Nash Equilibrium Seeking Over Time-Varying
+   Communication Networks With Linear Convergence Rate
+SO IEEE CONTROL SYSTEMS LETTERS
+LA English
+DT Article
+DE Games; Heuristic algorithms; Convergence; Communication networks;
+   Directed graphs; Nash equilibrium; Upper bound; Game theory;
+   optimization algorithms; networked control systems
+ID AGGREGATIVE GAMES
+AB We design a distributed algorithm for learning Nash equilibria over time-varying communication networks in a partial-decision information scenario, where each agent can access its own cost function and local feasible set, but can only observe the actions of some neighbors. Our algorithm is based on projected pseudo-gradient dynamics, augmented with consensual terms. Under strong monotonicity and Lipschitz continuity of the game mapping, we provide a simple proof of linear convergence, based on a contractivity property of the iterates. Compared to similar solutions proposed in literature, we also allow for time-varying communication and derive tighter bounds on the step sizes that ensure convergence. In fact, in our numerical simulations, our algorithm outperforms the existing gradient-based methods, when the step sizes are set to their theoretical upper bounds. Finally, to relax the assumptions on the network structure, we propose a different pseudo-gradient algorithm, which is guaranteed to converge on time-varying balanced directed graphs.
+C1 [Bianchi, Mattia; Grammatico, Sergio] Delft Univ Technol, Delft Ctr Syst & Control, NL-2613 GA Delft, Netherlands.
+RP Bianchi, M (corresponding author), Delft Univ Technol, Delft Ctr Syst & Control, NL-2613 GA Delft, Netherlands.
+EM m.bianchi@tudelft.nl; s.grammatico@tudelft.nl
+OI Bianchi, Mattia/0000-0002-5261-6718
+FU Netherlands Organization for Scientific Research through Project OMEGA
+   [613.001.702]; European Research Council through Project COSMOS [802348]
+FX This work was supported in part by Netherlands Organization for
+   Scientific Research through Project OMEGA under Grant 613.001.702, and
+   in part by the European Research Council through Project COSMOS under
+   Grant 802348. Recommended by Senior Editor M. Guay.
+NR 22
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 2475-1456
+J9 IEEE CONTR SYST LETT
+JI IEEE Control Syst. Lett.
+PD APR
+PY 2021
+VL 5
+IS 2
+BP 499
+EP 504
+DI 10.1109/LCSYS.2020.3002734
+PG 6
+WC Automation & Control Systems
+SC Automation & Control Systems
+GA MF8DZ
+UT WOS:000545569800012
+DA 2020-08-14
+ER
+
+PT J
+AU Xiang, SY
+   Ren, ZX
+   Zhang, YH
+   Song, ZW
+   Guo, XX
+   Han, GQ
+   Hao, Y
+AF Xiang, Shuiying
+   Ren, Zhenxing
+   Zhang, Yahui
+   Song, Ziwei
+   Guo, Xingxing
+   Han, Genquan
+   Hao, Yue
+TI Training a Multi-Layer Photonic Spiking Neural Network With Modified
+   Supervised Learning Algorithm Based on Photonic STDP
+SO IEEE JOURNAL OF SELECTED TOPICS IN QUANTUM ELECTRONICS
+LA English
+DT Article
+DE Photonic spiking neural network; vertical-cavity surface-emitting
+   lasers; multi-layer spiking neural network; spike timing dependent
+   plasticity; supervised learning
+ID TIMING-DEPENDENT PLASTICITY; NEUROMORPHIC PHOTONICS; INHIBITORY
+   DYNAMICS; NEURONS; CLASSIFICATION; IMPLEMENTATION; INTELLIGENCE; VCSELS;
+   GAME; GO
+AB We propose a framework for hardware architecture and learning algorithm co-design of multi-layer photonic spiking neural network (SNN). The vertical-cavity surface-emitting laser with an embedded saturable absorber (VCSEL-SA) which contains two polarization-resolved modes is employed as a spiking neuron. The connection between two identical polarization modes is considered as the excitatory synapse, whereas the connection between two orthogonal polarization modes is regarded as the inhibitory synapse. The physical model of the photonic spiking neuron is derived based on the combination of spin-flip model and Yamada model. The photonic spike timing dependent plasticity (STDP) is applied to design a hardware-friendly biologically plausible supervised learning algorithm for a multi-layer photonic SNN. Thanks to the polarization mode competition effect in the VCSEL-SA, the proposed neuromorphic network is capable of solving the classical XOR problem. The effect of physical parameters of photonic neuron on the training convergence is also considered. We further extend the multi-layer photonic SNN to realize other logic learning tasks. To the best of our knowledge, such a modified supervised learning algorithm dedicated for a multi-layer photonic SNN has not yet been reported, which is interesting for spiking learning of neuromorphic photonics.
+C1 [Xiang, Shuiying; Ren, Zhenxing; Zhang, Yahui; Song, Ziwei; Guo, Xingxing] Xidian Univ, State Key Lab Integrated Serv Networks, Xian 710071, Peoples R China.
+   [Xiang, Shuiying; Han, Genquan; Hao, Yue] Xidian Univ, Sch Microelect, State Key Discipline Lab Wide Bandgap Semicond Te, Xian 710071, Peoples R China.
+RP Xiang, SY (corresponding author), Xidian Univ, State Key Lab Integrated Serv Networks, Xian 710071, Peoples R China.
+EM jxxsy@126.com; 584401206@qq.com; 18332551054@163.com; 1064971297@qq.com;
+   1966461830@qq.com; gqhan@xidian.edu.cn; yhao@xidian.edu.cn
+FU National Key Research and Development Program of China [2018YFB2200500];
+   National Natural Science Foundation of ChinaNational Natural Science
+   Foundation of China [61974177, 61674119]
+FX This work was supported in part by the National Key Research and
+   Development Program of China under Grant 2018YFB2200500, in part by the
+   National Natural Science Foundation of China under Grants 61974177,
+   61674119.
+NR 71
+TC 0
+Z9 0
+U1 0
+U2 0
+PU IEEE-INST ELECTRICAL ELECTRONICS ENGINEERS INC
+PI PISCATAWAY
+PA 445 HOES LANE, PISCATAWAY, NJ 08855-4141 USA
+SN 1077-260X
+EI 1558-4542
+J9 IEEE J SEL TOP QUANT
+JI IEEE J. Sel. Top. Quantum Electron.
+PD MAR-APR
+PY 2021
+VL 27
+IS 2
+DI 10.1109/JSTQE.2020.3005589
+PG 9
+WC Engineering, Electrical & Electronic; Quantum Science & Technology;
+   Optics; Physics, Applied
+SC Engineering; Physics; Optics
+GA MK4IK
+UT WOS:000548750000001
+DA 2020-08-14
+ER
+
+PT J
+AU Labb?, M
+   Pozo, MA
+   Puerto, J
+AF Labbe, Martine
+   Pozo, Miguel A.
+   Puerto, Justo
+TI Computational comparisons of different formulations for the Stackelberg
+   minimum spanning tree game
+SO INTERNATIONAL TRANSACTIONS IN OPERATIONAL RESEARCH
+LA English
+DT Article
+DE minimum spanning tree; bilevel optimization; Stackelberg game
+ID ALGORITHMS; MODEL
+AB LetG=(V,E)be a given graph whose edge set is partitioned into a setRof red edges and a setBof blue edges, and assume that red edges are weighted and contain a spanning tree ofG. Then, the Stackelberg minimum spanning tree game (StackMST) is that of pricing (i.e., weighting) the blue edges in such a way that the total weight of the blue edges selected in a minimum spanning tree of the resulting graph is maximized. In this paper, we present different new mathematical programming formulations for the StackMST based on the properties of the minimum spanning tree problem and the bilevel optimization. We establish a theoretical and empirical comparison between these new formulations that are able to solve random instances of 20-70 nodes. We also test our models on instances in the literature, outperforming previous results.
+C1 [Labbe, Martine] Univ Libre Bruxelles, Fac Sci, Comp Sci Dept, Brussels, Belgium.
+   [Labbe, Martine] INRIA, INOCS Team, Lille, France.
+   [Pozo, Miguel A.; Puerto, Justo] Univ Seville, Fac Matemat, Dept Stat & Operat Res, Seville, Spain.
+RP Pozo, MA (corresponding author), Univ Seville, Fac Matemat, Dept Stat & Operat Res, Seville, Spain.
+EM mlabbe@ulb.ac.be; miguelpozo@us.es; puerto@us.es
+NR 21
+TC 0
+Z9 0
+U1 0
+U2 0
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0969-6016
+EI 1475-3995
+J9 INT T OPER RES
+JI Int. Trans. Oper. Res.
+PD JAN
+PY 2021
+VL 28
+IS 1
+BP 48
+EP 69
+DI 10.1111/itor.12680
+PG 22
+WC Management; Operations Research & Management Science
+SC Business & Economics; Operations Research & Management Science
+GA MT2SV
+UT WOS:000554818700003
+DA 2020-08-14
+ER
+
+PT J
+AU Chen, QQ
+   Tan, ZY
+AF Chen, Qianqian
+   Tan, Zhiyi
+TI Mixed coordination mechanisms for scheduling games on hierarchical
+   machines
+SO INTERNATIONAL TRANSACTIONS IN OPERATIONAL RESEARCH
+LA English
+DT Article
+DE scheduling; Nash equilibrium; parallel machines; price of anarchy
+ID PARALLEL MACHINES; ONLINE; BOUNDS; GRADE; TIME
+AB In this paper, we study scheduling games under mixed coordination mechanisms on hierarchical machines. The two scheduling policies involved areLG-LPTandLG-SPT, whereLG-LPT(resp.,LG-SPT) policy sequences jobs in nondecreasing order of their hierarchies, and jobs of the same hierarchy in nonincreasing (resp., nondecreasing) order of their processing times. We first show the existence of a Nash equilibrium. Then we present the price of anarchy and the price of stability for the games with social costs of minimizing the makespan and maximizing the minimum machine load. All the bounds given in this paper are tight.
+C1 [Chen, Qianqian; Tan, Zhiyi] Zhejiang Univ, Dept Math, Hangzhou 310027, Peoples R China.
+RP Tan, ZY (corresponding author), Zhejiang Univ, Dept Math, Hangzhou 310027, Peoples R China.
+EM chenqian@zju.edu.cn; tanzy@zju.edu.cn
+NR 27
+TC 2
+Z9 2
+U1 0
+U2 0
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0969-6016
+EI 1475-3995
+J9 INT T OPER RES
+JI Int. Trans. Oper. Res.
+PD JAN
+PY 2021
+VL 28
+IS 1
+BP 419
+EP 437
+DI 10.1111/itor.12558
+PG 19
+WC Management; Operations Research & Management Science
+SC Business & Economics; Operations Research & Management Science
+GA MT2SV
+UT WOS:000554818700017
+DA 2020-08-14
+ER
+
+PT J
+AU Huang, CW
+AF Huang, Chin-wei
+TI Using a hybrid two-stage DEA model to analyze the profitability and
+   marketability of medical manufacturing firms
+SO INTERNATIONAL TRANSACTIONS IN OPERATIONAL RESEARCH
+LA English
+DT Article
+DE data envelopment analysis; marketability; profitability; medical
+   manufacture
+ID PHARMACEUTICAL SUPPLY CHAIN; DATA ENVELOPMENT ANALYSIS; NETWORK DEA;
+   EFFICIENCY DECOMPOSITION; OPERATIONAL EFFICIENCY; SHARED RESOURCES; GAME
+   MODEL; PERFORMANCE; MARKET; PRODUCTIVITY
+AB The purpose of this study is to develop a modification of the model developed by Chen and Zhu in 2004. Calculating stage and overall efficiencies precisely and consistently has become a major challenge of the two-stage DEA model. However, most other models do not calculate the optimality of intermediates. Although the model developed by Chen and Zhu measures the optimality of intermediates, the calculated efficiency scores still have some shortfalls. The modified model, named the hybrid two-stage DEA model, fills the gap between calculating the optimality of intermediates and the consistency of overall efficiency scores. In addition to obtaining an accurate measurement for the optimality of intermediates, the model confines efficiency scores to a range from zero to one (a ratio efficiency score). In an empirical evaluation, we use data from 64 medical manufacturing firms to test the performance of the hybrid model and offer recommendations for the industry.
+C1 [Huang, Chin-wei] Kainan Univ, Dept Business & Entrepreneurial Management, Taoyuan, Taiwan.
+RP Huang, CW (corresponding author), Kainan Univ, Dept Business & Entrepreneurial Management, Taoyuan, Taiwan.
+EM davy641126@yahoo.com.tw
+NR 68
+TC 1
+Z9 1
+U1 0
+U2 0
+PU WILEY
+PI HOBOKEN
+PA 111 RIVER ST, HOBOKEN 07030-5774, NJ USA
+SN 0969-6016
+EI 1475-3995
+J9 INT T OPER RES
+JI Int. Trans. Oper. Res.
+PD JAN
+PY 2021
+VL 28
+IS 1
+BP 470
+EP 492
+DI 10.1111/itor.12546
+PG 23
+WC Management; Operations Research & Management Science
+SC Business & Economics; Operations Research & Management Science
+GA MT2SV
+UT WOS:000554818700019
+DA 2020-08-14
+ER
+
+PT J
+AU Hao, YQ
+   Cheng, DZ
+AF Hao, Yaqi
+   Cheng, Daizhan
+TI Finite element approach to continuous potential games
+SO SCIENCE CHINA-INFORMATION SCIENCES
+LA English
+DT Letter
+C1 [Hao, Yaqi] Shandong Normal Univ, Sch Management Sci & Engn, Jinan 250014, Peoples R China.
+   [Cheng, Daizhan] Chinese Acad Sci, Acad Math & Syst Sci, Beijing 100190, Peoples R China.
+RP Hao, YQ (corresponding author), Shandong Normal Univ, Sch Management Sci & Engn, Jinan 250014, Peoples R China.
+EM hoayaqi@outlook.com
+FU National Natural Science Foundation of ChinaNational Natural Science
+   Foundation of China [61773371, 61733018]
+FX This work was supported by National Natural Science Foundation of China
+   (Grant Nos. 61773371, 61733018).
+NR 9
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SCIENCE PRESS
+PI BEIJING
+PA 16 DONGHUANGCHENGGEN NORTH ST, BEIJING 100717, PEOPLES R CHINA
+SN 1674-733X
+EI 1869-1919
+J9 SCI CHINA INFORM SCI
+JI Sci. China-Inf. Sci.
+PY 2021
+VL 64
+IS 4
+AR 149202
+DI 10.1007/s11432-018-9763-7
+PG 3
+WC Computer Science, Information Systems; Engineering, Electrical &
+   Electronic
+SC Computer Science; Engineering
+GA LN2TG
+UT WOS:000532795600001
+DA 2020-08-14
+ER
+
+PT J
+AU Zhang, XY
+   Zhu, SY
+AF Zhang, Xiaoyan
+   Zhu, Shanying
+TI Distributed energy trading with transmission cost: a Stackelberg game
+   approach
+SO SCIENCE CHINA-INFORMATION SCIENCES
+LA English
+DT Letter
+C1 [Zhang, Xiaoyan; Zhu, Shanying] Shanghai Jiao Tong Univ, Dept Automat, Shanghai 200240, Peoples R China.
+   [Zhang, Xiaoyan; Zhu, Shanying] Minist Educ China, Key Lab Syst Control & Informat Proc, Shanghai 200240, Peoples R China.
+RP Zhu, SY (corresponding author), Shanghai Jiao Tong Univ, Dept Automat, Shanghai 200240, Peoples R China.; Zhu, SY (corresponding author), Minist Educ China, Key Lab Syst Control & Informat Proc, Shanghai 200240, Peoples R China.
+EM shyzhu@sjtu.edu.cn
+FU National Key R&D Program of China [2016YFB0901900]; National Natural
+   Science Foundation of ChinaNational Natural Science Foundation of China
+   [61521063]
+FX This work was supported by National Key R&D Program of China (Grant No.
+   2016YFB0901900), and National Natural Science Foundation of China (Grant
+   No. 61521063).
+NR 7
+TC 0
+Z9 0
+U1 0
+U2 0
+PU SCIENCE PRESS
+PI BEIJING
+PA 16 DONGHUANGCHENGGEN NORTH ST, BEIJING 100717, PEOPLES R CHINA
+SN 1674-733X
+EI 1869-1919
+J9 SCI CHINA INFORM SCI
+JI Sci. China-Inf. Sci.
+PY 2021
+VL 64
+IS 2
+AR 129201
+DI 10.1007/s11432-018-9612-9
+PG 3
+WC Computer Science, Information Systems; Engineering, Electrical &
+   Electronic
+SC Computer Science; Engineering
+GA LN2TH
+UT WOS:000532795700001
+DA 2020-08-14
+ER
+
+EF

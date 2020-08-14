@@ -81,10 +81,11 @@ const transformToJSON = (parsedData) => {
       }
       else
         item[property] = newValue
-
+      if(tag == "PMID")
+      item['URL'] = `https://pubmed.ncbi.nlm.nih.gov/${newValue}`
       //Extract DOI No in a seperate tab
       if (tag == "AID" && newValue.includes("[doi]"))
-        item["DOI"] = newValue.replace("[doi]",'').trimRight()
+        item["DOI"] = newValue.replace("[doi]", '').trimRight()
 
     }
 
