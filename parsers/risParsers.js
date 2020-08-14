@@ -57,11 +57,11 @@ const transformToJSON = (parsedData) => {
        * indexOf will always point to the first occurance of the hyphen*/
       const tag = image.substring(0, image.indexOf('-') - 1)
       property = tag.replace(/\s/, '')//Remove Spaces      
-      
-      property = risToJsonTag(property)
-      const str = image.substring(image.indexOf('-')+1, image.length-1).replace(/^\s/,'')
 
-      item[property] =str;
+      property = risToJsonTag(property)
+      const str = image.substring(image.indexOf('-') + 1, image.length - 1).replace(/^\s/, '')
+
+      item[property] = str;
       // item[property] = str[1].replace(/^\s+/, '');
       if (
         parsedData.tokens[index + 1] === undefined
@@ -74,15 +74,14 @@ const transformToJSON = (parsedData) => {
       }
     }
 
-    // if (name === 'Sentence') {
+    if (name === 'Sentence') {
 
-    //   console.log("sentence = " + image)
-    //      if (parsedData.tokens[index + 1].tokenType.name !== 'Sentence') {
-    //        item[property] += image;
-    //      } else {
-    //        item[property] += `${image} `;
-    //      }
-    // }
+      if (parsedData.tokens[index + 1].tokenType.name !== 'Sentence') {
+        item[property] += image;
+      } else {
+        item[property] += `${image} `;
+      }
+    }
   });
 
   return {
