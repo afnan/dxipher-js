@@ -1,6 +1,6 @@
 {
   "name": "@afnan.bashir/dxipher-js",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "description": "Conversion library for Reference Manager formats",
   "license": "MIT",
   "repository": "afnan/dxipher-js",
@@ -16,9 +16,10 @@
     "utilities/*"
   ],
   "lint-staged": {
-    "**/*.js": [
-      "eslint --fix",
-      "prettier-eslint --write",
+    "dxipher-js/**/*.js": [
+      "prettier --write",
+      "eslint src/ --fix",
+      "jest --bail --findRelatedTests",
       "git add"
     ]
   },
@@ -29,7 +30,7 @@
     "js"
   ],
   "dependencies": {
-    "chevrotain": "^6.5.0"
+    "chevrotain": "^7.0.1"
   },
   "husky": {
     "hooks": {

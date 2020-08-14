@@ -130,4 +130,5 @@ module.exports = {
     risToJsonTag,
     pubMedToJsonTag,
     getPubMedRegEx,
+    pubMedTags
 };

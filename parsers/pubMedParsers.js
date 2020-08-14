@@ -1,6 +1,6 @@
 //https://pubmed.ncbi.nlm.nih.gov/PUBMEDID
 const chevrotain = require('chevrotain');
-const { pubMedToJsonTag, getPubMedRegEx } = require('../utilities/encoding');
+const { pubMedToJsonTag, getPubMedRegEx, pubMedTags } = require('../utilities/encoding');
 const { createToken } = chevrotain;
 const punycode = require('punycode');
 
@@ -13,7 +13,7 @@ const generalProperty = createToken({
   name: 'Field',
   pattern: getPubMedRegEx(),
 });
-console.log(getPubMedRegEx())
+
 const sentenceProperty = createToken({
   name: 'Sentence',
   pattern: /[a-zA-Z0-9-.]+/i,
@@ -56,10 +56,20 @@ const transformToJSON = (parsedData) => {
        * Using Substring as the text can have hyphens
        * indexOf will always point to the first occurance of the hyphen*/
 
-      const tag = image.substring(0, image.indexOf('-'))
-      property = tag.replace(/\s+/, '')//Remove Spaces      
-      property = pubMedToJsonTag(property)
-      let newValue = image.substring(image.indexOf('-') + 1, image.length).replace(/^\s+/, '')
+
+      const tag = image.substring(0, image.indexOf('-')).replace(/\s+/, '')//Remove Spaces  
+      //Match if the tags are within the permisible tag list. This will avoid false positives
+      let newValue = ''
+      if(!(tag in pubMedTags)) {
+        //If the tag was not found, it means it is a continuation of the previous property
+        newValue = image.replace(/^\s+/, '')
+      }
+      else {
+        //The property name is a valid one. 
+        property = tag.replace(/\s+/, '')//Remove Spaces      
+        property = pubMedToJsonTag(property)
+        newValue = image.substring(image.indexOf('-') + 1, image.length).replace(/^\s+/, '')
+      }
       /**If an item already exists, take the previous one and add them as array if its not an array */
       if (property in item) {
         if (item[property].constructor == Array)
