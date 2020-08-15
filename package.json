@@ -1,6 +1,6 @@
 {
   "name": "@afnan.bashir/dxipher-js",
-  "version": "1.4.6",
+  "version": "1.4.7",
   "description": "Conversion library for parsing various citation/reference files",
   "license": "MIT",
   "repository": "afnan/dxipher-js",
