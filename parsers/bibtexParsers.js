@@ -53,6 +53,7 @@ const transformToJSON = (parsedData) => {
       const str = image.split(/[=]/gm);
       property = str[0].replace(/[ \t]+$/, '');
       item[property] = str[1].replace(/^\s+/, '');
+      
 
       if (
         parsedData.tokens[index + 1] === undefined
@@ -65,12 +66,11 @@ const transformToJSON = (parsedData) => {
     }
 
     if (name === 'Sentence') {
-      if (parsedData.tokens[index + 1].tokenType.name !== 'Sentence') {
-
-        item[property] += image;
-      } else {
+      // if (parsedData.tokens[index + 1].tokenType.name !== 'Sentence') {
+      //   item[property] += image;
+      // } else {
         item[property] += `${image} `;
-      }
+      // }
     }
   });
 
